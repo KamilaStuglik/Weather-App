@@ -23,8 +23,20 @@ li {
   line-height: 19px;
 }
 
+.temperature {
+  font-size: 64px;
+  line-height: 1;
+  float: left;
+}
+
+.weather-icon {
+  font-size: 64px;
+  line-height: 1;
+  float: left;
+}
+
 .weather-app {
-  padding: 25px;
+  padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 8px;
 }
@@ -32,4 +44,8 @@ li {
 .weather-app-wrapper {
   max-width: 600px;
   margin: 30px auto;
+}
+
+.overview {
+  margin-bottom: 20px;
 }

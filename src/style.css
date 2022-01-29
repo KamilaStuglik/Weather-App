@@ -26,13 +26,13 @@ li {
 .temperature {
   font-size: 64px;
   line-height: 1;
-  float: left;
+  display: inline;
 }
 
 .weather-icon {
   font-size: 64px;
   line-height: 1;
-  float: left;
+  display: inline-block;
 }
 
 .weather-app {

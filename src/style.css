@@ -24,7 +24,7 @@ li {
 }
 
 .temperature {
-  font-size: 64px;
+  font-size: 60px;
   line-height: 1;
   display: inline;
 }
@@ -33,6 +33,7 @@ li {
   font-size: 64px;
   line-height: 1;
   display: inline-block;
+  padding: 0px 7px 0px 0px;
 }
 
 .weather-app {

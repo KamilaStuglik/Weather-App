@@ -59,3 +59,12 @@ a:link {
 .overview {
   margin-bottom: 20px;
 }
+
+a.active {
+  color: #48484a;
+  cursor: default;
+}
+
+a.active:hover {
+  text-decoration: none;
+}

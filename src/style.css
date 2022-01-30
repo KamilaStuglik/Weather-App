@@ -1,10 +1,10 @@
 body {
-  font-family: arial, sans-serif;
+  font-family: "Comfortaa", cursive;
+  background: #cbdef3;
 }
-
 h1 {
-  color: #878787;
-  font-size: 22px;
+  color: #48484a;
+  font-size: 30px;
   font-weight: 100;
   line-height: 28px;
   margin-bottom: 0;
@@ -17,14 +17,18 @@ ul {
 
 li {
   list-style: none;
-  color: #878787;
+  color: #48484a;
   font-size: 16px;
-  font-weight: 100;
+  font-weight: 200;
   line-height: 19px;
 }
 
 li:first-letter {
   text-transform: capitalize;
+}
+
+a:link {
+  text-decoration: none;
 }
 
 .temperature {
@@ -44,6 +48,7 @@ li:first-letter {
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 8px;
+  background: #ffff;
 }
 
 .weather-app-wrapper {
